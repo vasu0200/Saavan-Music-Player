@@ -1,0 +1,25 @@
+.player-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+}
+.player-left{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+.player-mid{
+    display: flex;
+    gap: 1rem;
+}
+.player-right{
+    display: flex;
+    gap: 1rem;
+}

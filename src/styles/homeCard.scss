@@ -1,0 +1,15 @@
+.homecard-container{
+    width: 100%;
+    display: flex;
+    // grid-template-columns:repeat(4,auto);
+}
+.homecard-container img{
+ width: 8rem;  
+ border-radius: 1rem; 
+}
+.title{
+    color: rgb(8, 8, 8);
+    font-family: sans-serif;
+    font-weight: 600;
+    max-width: 8rem;
+}

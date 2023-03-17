@@ -1,0 +1,31 @@
+.sidebar-container{
+    width: 15%;
+    height: 75vh;
+    background-color: aliceblue;
+    display: grid;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.sidebar-top{
+    display: grid;
+}
+ul{
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+.sidebar-bottom{
+    display: grid;
+}
+button{
+    padding:.5rem;
+    color: rgb(67, 235, 235);
+    border: 1px solid rgb(67, 235, 235);
+    border-radius: 2rem;
+    margin-bottom: 0.5rem;
+   
+}

@@ -1,0 +1,12 @@
+@mixin flexBox($direction,$justify){
+ display: flex;
+ align-items: center;
+ justify-content:$justify;
+ flex-direction: $direction;
+}
+@mixin textEllipse($maxWidth){
+    text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: $maxWidth;
+}

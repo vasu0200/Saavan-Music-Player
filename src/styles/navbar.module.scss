@@ -1,0 +1,32 @@
+@import "./mixin.scss";
+.container{
+    @include flexBox(row,space-between);
+    padding:0 1rem 0 0;
+    height: 5rem;
+    background-color: rgb(232, 236, 240);
+    position: sticky;
+    top: 0;
+    width: 100%;
+.left{
+    @include flexBox(space-between,row);
+   gap: 1rem;
+.logo{
+    max-width: 10rem;
+    max-height: 5rem;
+}
+}
+.center{
+.search{
+    margin: 0,auto;
+    width: 30rem;
+    padding: 0.4rem;
+    border: 1px solid;
+    border-radius: 2rem;
+}
+}
+
+.right{
+    @include flexBox(space-evenly,row);
+    gap: 1rem;
+}
+}
